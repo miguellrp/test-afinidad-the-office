@@ -11,6 +11,7 @@ _Una app para revelar con qué personaje de la serie 'The Office' tienes más af
 
 ## 🛠️ Características a arreglar / mejorar
 * Se podrían añadir más preguntas y más opciones de respuesta para lograr una mayor precisión para calcular el personaje más afín a los usuarios de la app.
+* Mejorar el sistema de imports de imágenes, el cual se realizó de forma manual para poder desplegar la web sin problemas con sus rutas de acceso (lo que no es muy eficiente ni lo hace mantenible a largo plazo).
 * Revisar el sistema de afinidad inicialmente propuesto por otro que logre una mayor equidad en función de si se tratan de respuestas más específicas del propio personaje o más genéricas, etc. (Cualquier sistema de puntuación mejoraría el inicialmente propuesto porque... \*tos\* 👀)
 <img src="public/screenshots/count-affinity.png" />
 
