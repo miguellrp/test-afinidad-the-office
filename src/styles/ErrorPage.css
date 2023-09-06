@@ -1,0 +1,20 @@
+#container-error {
+  background-color: #f9c35f;
+  display: flex;
+  justify-content: center;
+  display: block;
+}
+
+#tacita-icon {
+  display: block;
+  margin: auto;
+  height: 220px;
+}
+
+* {
+  text-align: center;
+}
+
+i {
+  color: red;
+}

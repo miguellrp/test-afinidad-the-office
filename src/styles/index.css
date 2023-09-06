@@ -1,0 +1,116 @@
+@import url(../fonts/fonts.css);
+
+:root {
+  --naranjaPastel: #ffbf49;
+  --amarilloPastel: #feffe2;
+  --rosaPastel: #ffc1fa;
+  --rosaBrillante: #ff88f5;
+  --rosaGrisaceo: #bd85b8;
+  --oscurecerRosa: color-mix(in srgb,var(--rosaGrisaceo),#000 13%);
+  --violetaClaro: #b68ce6;
+  --violetaOscuro: #902fae;
+  --cursor-auto: url('../assets/cursor.png'), auto;
+  --cursor-pointer: url('../assets/cursor-pointer.png'), pointer;
+}
+
+::selection {
+  color: var(--rosaPastel);
+  background: var(--violetaOscuro);
+}
+
+* {
+  cursor: var(--cursor-auto);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 1em;
+  font-family: WebpixelBitmapRegular;
+  font-size: 26px;
+
+  background-image: url('../assets/background-pattern.png');
+  background-repeat: repeat;
+}
+
+#icon-group {
+  position: fixed;
+  top: 0.2em;
+  right: 0.2em;
+}
+
+h3 {
+  margin: 0;
+}
+
+a {
+  font-family: WebpixelBitmapBold;
+  color: var(--violetaOscuro);
+  cursor: var(--cursor-pointer);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--amarilloPastel);
+}
+
+input {
+  cursor: var(--cursor-pointer);
+}
+
+/* animation by https://www.heteroclito.fr/modules/Hover/ */
+.hover-buzz-out:hover {
+  -webkit-animation-name: hover-buzz-out;
+  animation-name: hover-buzz-out;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+@keyframes hover-buzz-out {
+  10% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  20% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  30% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  40% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  50% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  60% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  70% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  80% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  90% {
+    -webkit-transform: translateX(1px) rotate(0);
+    transform: translateX(1px) rotate(0);
+  }
+  100% {
+    -webkit-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0);
+  }
+}

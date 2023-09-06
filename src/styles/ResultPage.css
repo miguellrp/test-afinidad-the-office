@@ -1,0 +1,60 @@
+h1, h2 {
+  margin: 1em auto;
+  text-shadow: var(--violetaClaro) 1px 2px 2px;
+}
+
+h1 {
+  color: var(--violetaOscuro);
+}
+
+h1 {
+  filter: blur(1rem);
+  animation: unblur 4s 3s forwards;
+}
+
+.character-pixel {
+  filter: brightness(0);
+  animation: reveal 8s 1.5s forwards;
+}
+
+.home-ico {
+  display: block;
+  margin: 20px auto;
+  width: 32px;
+  height: 32px;
+  border: none;
+
+  background-image: url('../assets/home-ico.png');
+  background-color: transparent;
+
+  cursor: var(--cursor-pointer);
+  
+  transition: all .2s ease-in-out;
+}
+
+.home-ico:hover {
+  transform: translateX(3px) translateY(1px);
+  background-image: url('../assets/home-ico-hover.png');
+}
+
+.home-ico:active {
+  filter: brightness(75%)
+}
+
+@keyframes reveal {
+from {
+  filter: brightness(0);
+}
+to {
+  filter: brightness(1);
+}
+}
+
+@keyframes unblur {
+  from {
+    filter: blur(1rem);
+  }
+  to {
+    filter: blur(0);
+  }
+}

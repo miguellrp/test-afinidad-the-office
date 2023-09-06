@@ -1,0 +1,23 @@
+/* Font by: TypoGraphicDesign
+https://www.myfonts.com/collections/webpixel-bitmap-font-typographicdesign?rfsn=6624883.5e68e6 */
+
+@font-face {
+  font-family: 'WebpixelBitmapRegular';
+  src:
+    local('WebpixelBitmapRegular'),
+    url('./WebpixelBitmap/WebpixelBitmapRegular.woff') format('woff')
+}
+
+@font-face {
+  font-family: 'WebpixelBitmapBold';
+  src:
+    local('WebpixelBitmapBold'),
+    url('./WebpixelBitmap/WebpixelBitmapBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'WebpixelBitmapItalic';
+  src:
+    local('WebpixelBitmapItalic'),
+    url('./WebpixelBitmap/WebpixelBitmapItalic.woff') format('woff');
+}

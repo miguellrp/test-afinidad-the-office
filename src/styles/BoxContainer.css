@@ -1,0 +1,53 @@
+#box-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  border-radius: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+
+  max-height: 80vh;
+
+  transition: background-color .8s;
+}
+
+/* custom scrollbar quizz container*/
+
+#box-container::-webkit-scrollbar {
+  width: 13px;
+}
+
+#box-container::-webkit-scrollbar-track {
+  background: transparent;
+  height: 10px;
+}
+
+#box-container::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 5px;
+}
+
+#box-container::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 5px;
+}
+
+#box-container::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: var(--violetaClaro);
+  border: 2px dotted rgba(0, 0, 0, 0.3);
+}
+
+#box-container::-webkit-scrollbar-thumb:hover {
+  background: var(--rosaPastel);
+}
+
+#box-container::-webkit-scrollbar-thumb:active {
+  background: var(--oscurecerRosa);
+}
+
+@media (min-width: 1100px) {
+  #box-container {
+    height: min-content;
+    max-height: 85vh;
+  }
+}

@@ -1,0 +1,29 @@
+#scene {
+  display: flex;
+  justify-content: center;
+  margin: 0.3em;
+}
+
+.background-scene {
+  position: fixed;
+  height: 190px;
+  z-index: 1;
+  cursor: var(--cursor-auto);
+}
+
+.random-avatar, .random-avatar-reversed  {
+  z-index: 2;
+  cursor: var(--cursor-auto);
+}
+
+.random-avatar-reversed {
+  transform: scaleX(-1);
+}
+
+#couple-avatars {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 60px;
+  column-gap: 1em;
+}
