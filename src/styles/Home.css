@@ -20,18 +20,18 @@ h2 {
   height: 52px;
   border: none;
 
-  background-image: url('../assets/play-button.svg');
+  background-image: url('../assets/play-button.png');
   background-color: transparent;
 
   cursor: var(--cursor-pointer);
 }
 
 #play-button:hover {
-  background-image: url('../assets/play-button-hover.svg');
+  background-image: url('../assets/play-button-hover.png');
 }
 
 #play-button:active {
-  background-image: url('../assets/play-button-active.svg');
+  background-image: url('../assets/play-button-active.png');
 }
 
 .hover-buzz-out {

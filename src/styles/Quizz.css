@@ -35,7 +35,7 @@ li {
 
   cursor: var(--cursor-pointer);
 
-  border-image-source: url('../assets/border-pixel-choices.svg');
+  border-image-source: url('../assets/border-pixel-choices.png');
   border-image-slice: 15 15 15 15;
   border-image-width: 20px 20px 20px 20px;
   border-image-repeat: stretch stretch;
