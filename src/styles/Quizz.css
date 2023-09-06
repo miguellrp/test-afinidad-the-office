@@ -56,7 +56,7 @@ li:hover {
   padding: 10px;
   margin-right: 10px;
 
-  border-image-source: url('../assets/border-pixel-choices.svg');
+  border-image-source: url('../assets/border-pixel-choices.png');
   border-image-slice: 15 15 15 15;
   border-image-width: 20px 20px 20px 20px;
   border-image-repeat: stretch stretch;
@@ -87,7 +87,7 @@ select {
   outline: none;
   border: none;
   border-radius: 25px;
-  border-image-source: url('../assets/border-pixel-choices.svg');
+  border-image-source: url('../assets/border-pixel-choices.png');
   border-image-slice: 15 15 15 15;
   border-image-width: 20px 20px 20px 20px;
   border-image-repeat: stretch stretch;
