@@ -2,7 +2,7 @@
 import React, { useContext } from 'react'
 
 // eslint-disable-next-line import/no-absolute-path
-import lofiSound from '/lofi-the-office.ogg' // autorship: catacombie -> https://soundcloud.com/catacombie/office-lofi-1-mixed
+import lofiSound from '/lofi-the-office.mp3' // autorship: catacombie -> https://soundcloud.com/catacombie/office-lofi-1-mixed
 
 const AudioContext = React.createContext()
 
