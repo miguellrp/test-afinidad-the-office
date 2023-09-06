@@ -182,7 +182,7 @@ export const quizzTest = {
     },
     {
       question: // 9
-        'De entra las parejas de colores disponibles, ¿cuál sería a la que más uso darías para vestir de oficina?',
+        'De entre las parejas de colores disponibles, ¿cuál sería a la que más uso darías para vestir de oficina?',
       choices:
         [
           paletteOne,

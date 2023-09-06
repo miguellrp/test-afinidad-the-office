@@ -13,7 +13,7 @@
 /* custom scrollbar quizz container*/
 
 #box-container::-webkit-scrollbar {
-  width: 13px;
+  width: 8px;
 }
 
 #box-container::-webkit-scrollbar-track {
@@ -34,7 +34,7 @@
 #box-container::-webkit-scrollbar-thumb {
   border-radius: 6px;
   background: var(--violetaClaro);
-  border: 2px dotted rgba(0, 0, 0, 0.3);
+  border: 1px dotted rgba(0, 0, 0, 0.3);
 }
 
 #box-container::-webkit-scrollbar-thumb:hover {

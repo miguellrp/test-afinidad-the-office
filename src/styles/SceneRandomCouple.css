@@ -1,18 +1,15 @@
 #scene {
+  width: 350px;
+  height: 210px;
+  background-image: url('../assets/office-background.svg');
+
   display: flex;
   justify-content: center;
-  margin: 0.3em;
-}
-
-.background-scene {
-  position: fixed;
-  height: 190px;
-  z-index: 1;
-  cursor: var(--cursor-auto);
+  align-items: center;
+  margin: auto;
 }
 
 .random-avatar, .random-avatar-reversed  {
-  z-index: 2;
   cursor: var(--cursor-auto);
 }
 
