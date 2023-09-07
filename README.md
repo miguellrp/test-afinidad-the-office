@@ -4,6 +4,9 @@ _Una app para revelar con qué personaje de la serie 'The Office' tienes más af
 
 <img src="public/screenshots/demo-home.png" />
 
+## 🪄 Demo
+https://dundermifflin-thisismyfriend.vercel.app
+
 ## 📋 Requisitos
 * Habrá una lista con varios personajes de la serie, los cuales contarán con las siguientes propiedades: _name_ (nombre del personaje), _avatar_ (ruta a la imagen de su avatar en pixel art) y _affinity_ (propiedad que se incrementará en función de las opciones que se escojan a lo largo del test).
 * Se dispondrá de un botón con el que se podrá reproducir o pausar una canción de fondo y cuyo contexto se compartirá a lo largo de las diferentes secciones que conforman la app (HomePage, QuizzPage, ResultPage). Es decir, una sola instancia de audio que se compartirá a lo largo de la experiencia por la web.
